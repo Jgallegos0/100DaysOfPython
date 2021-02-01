@@ -33,13 +33,12 @@ while not end_of_game:
     if guess == letter:
       display[position] = letter
   print(f"{' '.join(display)}")
-  #print(hangman.stages[lives])
 
   #IF THE LETTER IS NOT IN THE WORD
   if guess not in wordchoice:
     lives -= 1
     print("That letter is not in the word, you lose a life.")
-    #print(hangman.stages[lives])
+    
   #IF THE USER HAS GUESSED THE WORD
   if "_" not in display:
     end_of_game = True
