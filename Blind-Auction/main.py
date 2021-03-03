@@ -1,7 +1,7 @@
 from replit import clear
 import art
 bidders = {}
-
+#Function to calculate highest bid
 def calculate_highest_bid(biddernames):
   final_value = 0
   winner = ""
