@@ -18,9 +18,11 @@ def easy(difficulty): #10tries
     elif guess > number:
       tries -= 1
       print("Too high")
+      print(f"You have {tries} tries left")
     elif guess < number:
       tries -= 1
       print("Too low")
+      print(f"You have {tries} tries left")
   print(f"Correct answer was: {number}")
 
 def hard(difficulty): #5tries
@@ -34,18 +36,22 @@ def hard(difficulty): #5tries
     elif guess > number:
       tries -= 1
       print("Too high")
+      print(f"You have {tries} tries left")
     elif guess < number:
       tries -= 1
       print("Too low")
+      print(f"You have {tries} tries left")
   print(f"Correct answer was: {number}")
-
+  
+#Function to determine difficulty
 def determine(difficulty):
   if difficulty == 'easy':
     easy(difficulty)
   else:
     difficulty == 'hard'
     hard(difficulty)
-
+    
+#Game begins
 start_game = True
 while start_game:
   print(logo)
@@ -59,6 +65,8 @@ while start_game:
   else:
     go_again == 'n'
     start_game = False
+
+
 
 
 
