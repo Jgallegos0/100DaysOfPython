@@ -22,6 +22,7 @@ score = 0
 game_should_continue = True
 account_b = random.choice(data)
 
+#START
 while game_should_continue:
   account_a = account_b
   account_b = random.choice(data)
