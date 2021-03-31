@@ -5,6 +5,7 @@ print(logo)
 print(logo2)
 
 drink_order = True
+#Function to process coins
 def change(drink):
     quarters = float(input("Enter your quarters: ")) * .25  # n(.25)
     dimes = float(input("Enter your dimes: ")) * .10        # n(.10)
