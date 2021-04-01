@@ -18,7 +18,7 @@ def change(drink):
         if total > price[drink] or total == price[drink]:
             total -= price[drink]
             return f'Your total was: ${price[drink]}\nHere is your change: ${round(total,2)}, Enjoy your drink.'
-
+#Drink functions
 def espresso():
     if ingredients['milk'] < 50 or ingredients['coffee'] < 50:
         return False
