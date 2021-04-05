@@ -31,7 +31,7 @@ print('''
 
 *******************************************************************************
 ''')
-# ****************************
+# Use of If/Else Statements
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.\nYour adventure awaits beyond this door.\nNow open it...") 
 
