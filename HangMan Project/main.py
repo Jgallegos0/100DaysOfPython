@@ -49,7 +49,7 @@ while not end_of_game:
     print("Game over")
   #PRINT CURRENT STAGE
   print(hangman.stages[lives])
-  #HINT
+  #PROVIDE HINT
   if lives == 3:
     lives -= 1
     hint = input("Do you want one hint? Y or N?\n").lower()
