@@ -9,7 +9,7 @@ def multiply(n1, n2):
 def divide(n1, n2):
   return n1 / n2
 
-# Operations Dictionary
+# Dictionary of Operation
 operations = {
   "+": addition,
   "-": subtract,
@@ -21,14 +21,16 @@ print(logo)
 
 def calculator():
   num1 = float(input("Enter the first number: "))
+  # Display available operations by looping through 'operations' dictionary
   for symbol in operations:
     print(symbol)
+    
   should_continue = True
-
   while should_continue:
     operation = input("Pick a function from above: ")
     num2 = float(input("Enter the second number: "))
-
+    
+    #
     calculation_function = operations[operation]
     answer = round(calculation_function(num1, num2),2)
 
@@ -38,5 +40,5 @@ def calculator():
       
     else:
       should_continue = False
-
+#1 Call calculator function
 calculator()
