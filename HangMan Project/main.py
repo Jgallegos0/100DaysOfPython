@@ -8,7 +8,7 @@ wordchoice = random.choice(words.word_list)
 length_of_word = len(wordchoice)
 #TOTAL LIVES THE USER HAS
 lives = 6
-#WELCOME MESSAGE
+#Display Welcome Message
 print(hangman.logo)
 #CREATE A DISPLAY LIST FOR THE CHOSEN WORD
 display = []
