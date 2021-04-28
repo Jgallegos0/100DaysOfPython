@@ -7,6 +7,7 @@ money_machine = MoneyMachine()
 coffee_maker = CoffeeMaker()
 menu = Menu()
 
+#Start
 is_on = True
 
 print(logo)
