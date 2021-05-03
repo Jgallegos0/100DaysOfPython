@@ -11,7 +11,7 @@ def calculate_highest_bid(biddernames):
       final_value = bid_value
       winner = bids
   print(f"The winning bidder is {winner} with a bid of ${final_value}.")
-
+#START
 bidding = True
 while bidding == True:
   print(art.logo)
