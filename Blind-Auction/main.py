@@ -27,6 +27,7 @@ while bidding == True:
   else:
     should_continue == "no"
     clear()
+    #call, calculate_hughest_bid function
     calculate_highest_bid(bidders)
     bidding = False
 
