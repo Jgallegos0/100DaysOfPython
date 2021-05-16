@@ -30,7 +30,7 @@ def calculator():
     operation = input("Pick a function from above: ")
     num2 = float(input("Enter the second number: "))
     
-    #
+   
     calculation_function = operations[operation]
     answer = round(calculation_function(num1, num2),2)
 
